@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yugansh Agarwal</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Vollkorn (center name) -->
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Michroma (branches) -->
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="canvas">
+    <svg viewBox="0 0 800 800" class="diagram">
+      <!-- Curved lines -->
+      <path class="branch" id="projects-line"
+        d="M400 400 C400 300, 420 240, 400 180" />
+      <path class="branch" id="graphics-line"
+        d="M400 400 C520 320, 600 260, 660 220" />
+      <path class="branch" id="photos-line"
+        d="M400 400 C520 480, 600 560, 660 620" />
+      <path class="branch" id="tunes-line"
+        d="M400 400 C400 520, 380 600, 400 660" />
+      <path class="branch" id="words-line"
+        d="M400 400 C280 380, 200 360, 160 340" />
+    </svg>
+
+    <!-- Labels -->
+    <div class="label projects">Projects</div>
+    <div class="label graphics">Graphics</div>
+    <div class="label photos">Photos</div>
+    <div class="label tunes">Tunes</div>
+    <div class="label words">Words</div>
+
+    <!-- Center -->
+    <button class="center" id="center-trigger">
+      Yugansh Agarwal
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
